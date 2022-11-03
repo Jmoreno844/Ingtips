@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411393233622",
+    "project_id": "ingtips",
+    "storage_bucket": "ingtips.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411393233622:android:5760e9a89e8a6ea36a6f77",
+        "android_client_info": {
+          "package_name": "com.example.ingtips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411393233622-l5vmjcl9ns3o0gq7pln8jvi9if6tlgbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSzmsOH9_2dYGyanR9sRyO6Lh2p_TWBIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411393233622-l5vmjcl9ns3o0gq7pln8jvi9if6tlgbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

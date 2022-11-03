@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ingetips</string>
+    <string name="item_titulo">titulo</string>
+    <string name="tv_video_titulo">Videos</string>
+    <string name="quiz">Quiz</string>
+    <string name="instrucciones">instrucciones</string>
+    <string name="continuar">continuar</string>
+    <string name="pregunta1">pregunta1</string>
+    <string name="max">/10</string>
+    <string name="count">00:00:00</string>
+    <string name="opcion1">opcion1</string>
+    <string name="opcion2">opcion2</string>
+    <string name="opcion3">opcion3</string>
+    <string name="opcion4">opcion4</string>
+    <string name="nextQ">Siguiente Pregunta</string>
+    <string name="cr_sesion">cerrar sesion</string>
+    <string name="it_perfil">perfil</string>
+</resources>
