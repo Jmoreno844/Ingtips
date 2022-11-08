@@ -55,8 +55,6 @@ public class PerfilActivity extends AppCompatActivity {
     }
 
     private void insertarDatos(){
-
-
         String id= Objects.requireNonNull(mAuth.getCurrentUser()).getUid();
 
 
@@ -80,53 +78,6 @@ public class PerfilActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-/*if (task.getResult().child("nombre").getValue(Integer.class) != null){
-                        String nnombre = task.getResult().child("nombre").getValue(String.class);
-                        nombre.setText(nnombre);
-                    }
-
-
-        databaseReference.child("Users").child(id).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-
-                    //int dbId = Integer.parseInt(snapshot.child("Users").getValue(String.class));
-                   // int dbId = Integer.parseInt(snapshot.child("Users").getKey());
-                    //String dbId = Users.getKey();
-                    //DataSnapshot noddo = snapshot.child("Users");
-                    //String SID= String.valueOf("");
-                    if(snapshot.exists()){
-                        String nombre1 = snapshot.child("name").getValue().toString();
-                        nombre.setText(nombre1);
-                        int inten = Integer.parseInt(snapshot.child("intentos").getValue(String.class));
-                        String Sinten = String.valueOf(inten);
-                        numero.setText(Sinten);
-
-
-                    }
-
-
-
-                }
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(PerfilActivity.this, "Failed to get data from Firebase", Toast.LENGTH_SHORT).show();
-            }
-
-
-            });*/
-
-
-
-
-
-
-
-
-
     }
 
     public void clickMain(View view){
@@ -136,23 +87,5 @@ public class PerfilActivity extends AppCompatActivity {
     }
 
 
-
-        /*databaseReference.child("Users").child(id).updateChildren(map).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task2) {
-
-                if (task2.isSuccessful()){
-
-                    finish();
-                    // StyleableToast.makeText(regitrate.this,"Registro correctamente",R.style.exampleToast).show();
-                    Toast.makeText(PerfilActivity.this, "Registro correctamente", Toast.LENGTH_SHORT).show();
-                }
-                else {
-                    //StyleableToast.makeText(regitrate.this,"no se pudo crear datos correctamete",R.style.exampleToast).show();
-                    Toast.makeText(PerfilActivity.this, "no se pudo crear datos correctamete", Toast.LENGTH_SHORT).show();
-                }
-
-            }
-        });*/
 
     }

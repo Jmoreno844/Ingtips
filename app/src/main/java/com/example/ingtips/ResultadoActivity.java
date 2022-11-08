@@ -120,46 +120,5 @@ public class ResultadoActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-      /*  databaseReference.child("Users").child(id).updateChildren(map).addOnSuccessListener(new OnSuccessListener() {
-            @Override
-            public void onSuccess(Object o) {
-                Toast.makeText(ResultadoActivity.this, "Se actualizo el perfil", Toast.LENGTH_SHORT).show();
-            }
-        });*/
-
-
-        /*databaseReference.child("Users").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-
-                int inten = Integer.parseInt(snapshot.child("intentos").getValue(String.class));
-                int intento = inten+1;
-                Map<String, Object> map=new HashMap<>();
-                map.put("intentos",intento);
-                map.putAll(map);
-
-
-
-
-                databaseReference.child("Users").child(id).updateChildren(map).addOnSuccessListener(new OnSuccessListener() {
-                    @Override
-                    public void onSuccess(Object o) {
-                        Toast.makeText(ResultadoActivity.this, "Se actualizo el perfil", Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(ResultadoActivity.this, "Failed to get data from Firebase", Toast.LENGTH_SHORT).show();
-            }
-        });*/
-
-
     }
 }
